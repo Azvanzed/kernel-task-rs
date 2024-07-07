@@ -6,14 +6,14 @@ kernel-task is an xtask script that speeds up Windows kernel driver development 
 
 # Requirements
 1. Install [xtask](https://github.com/matklad/cargo-xtask).
-2. A second system where the driver will run. 
+2. A second system where the driver will run.
+3. Logging into a file, if you are using VMWare follow [memn0ps instructions](https://github.com/memN0ps/matrix-rs?tab=readme-ov-file#usage) to setup serial logging.
 
 # Setup
  1. Setup an SSH server with [key-based authentication](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement).
  2. Enable [testsigning](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/the-testsigning-boot-configuration-option) in the second system.
- 3. Follow [xtask steps](https://github.com/matklad/cargo-xtask?tab=readme-ov-file#defining-xtasks) in order to get it working.
- 4. Modify constants with "REQUIRED" to what they should be in your case in main.rs.
-
+ 4. Follow [xtask steps](https://github.com/matklad/cargo-xtask?tab=readme-ov-file#defining-xtasks) in order to get it working.
+ 5. Modify constants with "REQUIRED" to what they should be in your case in main.rs.
 
 # Commands
 - `cargo task build` builds the driver.
@@ -26,4 +26,4 @@ Open an issue if you are experiencing, make it detailed if possible.
 PRs are welcome.
 
 # Special thanks
-- https://github.com/memN0ps/ for the certificate installation.
+- https://github.com/memN0ps/ for the certificate installation and COM logging.
