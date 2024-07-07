@@ -4,7 +4,6 @@ An xtask to speed up Windows kernel driver development in rust.
 # Requirements
 1. [xtask](https://github.com/matklad/cargo-xtask)
 2. A second system where the driver will run. 
-3. 
 
 # Setup
  1. Setup an SSH server with [key-based authentication](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement).
