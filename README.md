@@ -5,7 +5,7 @@ An xtask to speed up Windows kernel driver development in rust.
 kernel-task is an xtask script that speeds up Windows kernel driver development by completing the reptetif tasks, which are compiling, signing, and deploying the driver. It accomplishes those tasks by sending remote commands to the second system using SSH.
 
 # Requirements
-1. [xtask](https://github.com/matklad/cargo-xtask)
+1. Install [xtask](https://github.com/matklad/cargo-xtask).
 2. A second system where the driver will run. 
 
 # Setup
