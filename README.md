@@ -26,4 +26,4 @@ Open an issue if you are experiencing, make it detailed if possible.
 PRs are welcome.
 
 # Special thanks
-- https://github.com/memN0ps/ for the certificate install.
+- https://github.com/memN0ps/ for the certificate installation.
