@@ -16,7 +16,7 @@ kernel-task is an xtask script that speeds up Windows kernel driver development 
  5. Modify constants with "REQUIRED" to what they should be in your case in main.rs.
 
 # Commands
-- `cargo task build` builds the driver.
+- `cargo task build` builds the driver (add `release` after build for release builds).
 - `cargo task sign` signs the driver with a testsigning certificate. 
 - `cargo task deploy` deploys the built and signed driver in the second system.
 - `cargo task bsd` aka build, sign and deploy.
