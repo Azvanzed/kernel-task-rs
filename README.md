@@ -2,7 +2,7 @@
 An xtask to speed up Windows kernel driver development in rust.
 
 # What is kernel-task?
-kernel-task is an xtask script that speeds up Windows kernel driver development by completing the reptetif tasks, which are compiling, signing, and deploying the driver. It accomplishes those tasks by sending remote commands to the second system using SSH.
+kernel-task is an xtask script that speeds up Windows kernel driver development by completing the repetitive tasks, which are compiling, signing, and deploying the driver. It accomplishes those tasks by sending remote commands to the second system using SSH.
 kernel-task supports logging through a file.
 
 # Requirements
